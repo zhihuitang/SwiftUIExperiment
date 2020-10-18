@@ -78,6 +78,7 @@ struct CardView: View {
                     .animation(card.isMatched ? Animation.linear(duration: 1).repeatForever(autoreverses: false) : .default)
                 
             }
+            .navigationTitle("Memory Game")
             .cardify(isFaceUp: card.isFaceUp)
             .transition(.scale)
             //.transition(.offset(CGSize(width: 500, height: 500)))
