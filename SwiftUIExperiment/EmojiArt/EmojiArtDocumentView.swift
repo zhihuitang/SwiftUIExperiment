@@ -20,7 +20,3 @@ struct EmojiArtDocumentView: View {
         }.padding(.horizontal)
     }
 }
-
-extension String: Identifiable {
-    public var id: String { return self }
-}

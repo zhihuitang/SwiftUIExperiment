@@ -104,7 +104,8 @@ struct ContentView: View {
                     })
                 }
                 
-            }.navigationBarTitle("SwiftUI Lab")
+            }.navigationBarTitle("SwiftUI Experiment")
+            .font(.custom("Lato", size: 16))
         }
     }
 }

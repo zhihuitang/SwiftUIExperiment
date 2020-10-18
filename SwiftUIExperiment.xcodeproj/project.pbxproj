@@ -28,6 +28,9 @@
 		027EF32C25333BE50048CA59 /* TripleToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EF32B25333BE50048CA59 /* TripleToggle.swift */; };
 		027EF33525337D4C0048CA59 /* EmojiArtDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EF33425337D4C0048CA59 /* EmojiArtDocumentView.swift */; };
 		027EF33D25337D600048CA59 /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EF33C25337D600048CA59 /* EmojiArtDocument.swift */; };
+		02A09F01253C43BB00BA845D /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A09F00253C43BB00BA845D /* String+.swift */; };
+		02A09F0B253C444000BA845D /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02A09F09253C444000BA845D /* Lato-Bold.ttf */; };
+		02A09F0C253C444000BA845D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02A09F0A253C444000BA845D /* Lato-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		027EF32B25333BE50048CA59 /* TripleToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleToggle.swift; sourceTree = "<group>"; };
 		027EF33425337D4C0048CA59 /* EmojiArtDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentView.swift; sourceTree = "<group>"; };
 		027EF33C25337D600048CA59 /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
+		02A09F00253C43BB00BA845D /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		02A09F09253C444000BA845D /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		02A09F0A253C444000BA845D /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,11 +131,13 @@
 		0205F0C5252CEC7E004E7330 /* SwiftUIExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				02A09F08253C442600BA845D /* Fonts */,
+				0205F0C6252CEC7E004E7330 /* SwiftUIExperimentApp.swift */,
 				0205F0C8252CEC7E004E7330 /* ContentView.swift */,
 				027EF31A253334A30048CA59 /* AnimationDemo */,
-				0205F0C6252CEC7E004E7330 /* SwiftUIExperimentApp.swift */,
 				0205F10E252EEB7A004E7330 /* Memorize */,
 				027EF33325337D310048CA59 /* EmojiArt */,
+				02A09EFF253C439200BA845D /* Extensions */,
 				0205F0F4252CEC9D004E7330 /* TryGeometry.swift */,
 				0205F0CA252CEC7F004E7330 /* Assets.xcassets */,
 				0205F0CF252CEC7F004E7330 /* Info.plist */,
@@ -205,6 +213,23 @@
 				027EF33C25337D600048CA59 /* EmojiArtDocument.swift */,
 			);
 			path = EmojiArt;
+			sourceTree = "<group>";
+		};
+		02A09EFF253C439200BA845D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02A09F00253C43BB00BA845D /* String+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		02A09F08253C442600BA845D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				02A09F09253C444000BA845D /* Lato-Bold.ttf */,
+				02A09F0A253C444000BA845D /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,7 +336,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0205F0CE252CEC7F004E7330 /* Preview Assets.xcassets in Resources */,
+				02A09F0B253C444000BA845D /* Lato-Bold.ttf in Resources */,
 				0205F0CB252CEC7F004E7330 /* Assets.xcassets in Resources */,
+				02A09F0C253C444000BA845D /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +373,7 @@
 				0205F104252E3B3C004E7330 /* EmojiMemoryGame.swift in Sources */,
 				0205F0FA252E3801004E7330 /* EmojiMemoryGameView.swift in Sources */,
 				0276BBC42530E99000776BFF /* Cardify.swift in Sources */,
+				02A09F01253C43BB00BA845D /* String+.swift in Sources */,
 				027EF32425333AE60048CA59 /* AlignmentGuidsAnimation.swift in Sources */,
 				027EF33525337D4C0048CA59 /* EmojiArtDocumentView.swift in Sources */,
 				025B5ED1252F5F2E002C3577 /* Array+Identifiable.swift in Sources */,
