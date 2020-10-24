@@ -33,6 +33,8 @@
 		02A09F0C253C444000BA845D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02A09F0A253C444000BA845D /* Lato-Regular.ttf */; };
 		02A09F14253C6F2F00BA845D /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A09F13253C6F2E00BA845D /* EmojiArt.swift */; };
 		02A09F1C253C731700BA845D /* EmojiArtExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A09F1B253C731700BA845D /* EmojiArtExtensions.swift */; };
+		02C8725F254459F200CE13C0 /* OptionalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8725E254459F200CE13C0 /* OptionalImage.swift */; };
+		02C8726725445FC200CE13C0 /* AnimatableSystemFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8726625445FC200CE13C0 /* AnimatableSystemFontModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		02A09F0A253C444000BA845D /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		02A09F13253C6F2E00BA845D /* EmojiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
 		02A09F1B253C731700BA845D /* EmojiArtExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtExtensions.swift; sourceTree = "<group>"; };
+		02C8725E254459F200CE13C0 /* OptionalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalImage.swift; sourceTree = "<group>"; };
+		02C8726625445FC200CE13C0 /* AnimatableSystemFontModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableSystemFontModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				027EF33425337D4C0048CA59 /* EmojiArtDocumentView.swift */,
+				02C8725E254459F200CE13C0 /* OptionalImage.swift */,
+				02C8726625445FC200CE13C0 /* AnimatableSystemFontModifier.swift */,
 				027EF33C25337D600048CA59 /* EmojiArtDocument.swift */,
 				02A09F13253C6F2E00BA845D /* EmojiArt.swift */,
 			);
@@ -371,6 +377,7 @@
 			files = (
 				027EF31C253334B40048CA59 /* AnimationDemo.swift in Sources */,
 				0276BBB32530E19600776BFF /* Pie.swift in Sources */,
+				02C8726725445FC200CE13C0 /* AnimatableSystemFontModifier.swift in Sources */,
 				0205F0C9252CEC7E004E7330 /* ContentView.swift in Sources */,
 				027EF33D25337D600048CA59 /* EmojiArtDocument.swift in Sources */,
 				027EF32C25333BE50048CA59 /* TripleToggle.swift in Sources */,
@@ -378,6 +385,7 @@
 				02A09F1C253C731700BA845D /* EmojiArtExtensions.swift in Sources */,
 				0205F0FF252E3A94004E7330 /* MemoryGame.swift in Sources */,
 				0205F104252E3B3C004E7330 /* EmojiMemoryGame.swift in Sources */,
+				02C8725F254459F200CE13C0 /* OptionalImage.swift in Sources */,
 				0205F0FA252E3801004E7330 /* EmojiMemoryGameView.swift in Sources */,
 				0276BBC42530E99000776BFF /* Cardify.swift in Sources */,
 				02A09F01253C43BB00BA845D /* String+.swift in Sources */,
